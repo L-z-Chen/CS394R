@@ -1,0 +1,5 @@
+/vision/shuhan/projects/imitation/mix_demo/curr_configs/can_worse_better_lowdim_gmm/bc_rnn/no_pretrain.json
+/vision/shuhan/projects/imitation/mix_demo/curr_configs/square_worse_better_lowdim_gmm/bc_rnn/uniform.json
+/vision/shuhan/projects/imitation/mix_demo/curr_configs/can_worse_better_lowdim/bcq/no_pretrain.json
+/vision/shuhan/projects/imitation/mix_demo/curr_configs/can_worse_better_lowdim/bcq/late_var.json
+/vision/shuhan/projects/imitation/mix_demo/curr_configs/can_worse_better_lowdim/bcq/square_pretrain_500.json

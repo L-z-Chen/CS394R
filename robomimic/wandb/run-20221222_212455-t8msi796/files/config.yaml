@@ -1,0 +1,90 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.7
+    framework: lightning
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: Rollout/Success_Rate
+      6:
+      - 3
+      7:
+      - 2
+    - 1: Train/Loss
+      6:
+      - 3
+      7:
+      - 1
+    python_version: 3.7.9
+    start_time: 1671765895.500358
+    t:
+      1:
+      - 1
+      - 9
+      - 41
+      - 55
+      2:
+      - 1
+      - 9
+      - 41
+      - 55
+      3:
+      - 2
+      - 7
+      - 13
+      - 23
+      4: 3.7.9
+      5: 0.13.7
+      8:
+      - 5
+algo_name:
+  desc: null
+  value: bc
+batch_size:
+  desc: null
+  value: 100
+curriculm:
+  desc: null
+  value:
+    demo_quality:
+      mask_names:
+      - - worse
+      - - better
+      milestones:
+      - 500
+      sample_weights:
+      - 1.0
+      - 0.0
+    name: demo_quality
+data_file:
+  desc: null
+  value: /vision/shuhan/projects/imitation/mix_demo/datasets/can/mh/low_dim.hdf5
+epochs:
+  desc: null
+  value: 2000
+exp_name:
+  desc: null
+  value: bc_demo_quality_500
+hdf5_filter_key:
+  desc: null
+  value: worse_better
+modality:
+  desc: null
+  value:
+    goal:
+      depth: []
+      low_dim: []
+      rgb: []
+      scan: []
+    obs:
+      depth: []
+      low_dim:
+      - robot0_eef_pos
+      - robot0_eef_quat
+      - robot0_gripper_qpos
+      - object
+      rgb: []
+      scan: []
